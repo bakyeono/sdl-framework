@@ -1,0 +1,1736 @@
+# depslib dependency file v1.0
+1337035826 source:d:\project\my_sdl_framework\src\main.cpp
+	"./lib.h"
+	"./ctrl/CScreenCtrl.h"
+	"./paint/CImageArray.h"
+	"./ui/CUIManager.h"
+	"./ui/frame/CUIFrameFactory.h"
+	"./ui/frame/EUIFrameType.h"
+	"./paint/CTileset.h"
+	"./ctrl/CSoundCtrl.h"
+	"./util/CRand.h"
+
+1337033680 d:\project\my_sdl_framework\src\lib.h
+	"./compile.h"
+	"./macro.h"
+	<vector>
+	<list>
+	<string>
+	<algorithm>
+	<iostream>
+	<fstream>
+	<sstream>
+	<ctime>
+	<cstdlib>
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+
+1335098539 source:d:\project\my_sdl_framework\src\screencontroller.cpp
+	"ScreenController.h"
+
+1335098842 d:\project\my_sdl_framework\src\screencontroller.h
+	"lib.h"
+
+1335105868 d:\project\my_sdl_framework\src\cscreencontroller.h
+	"lib.h"
+
+1335105886 source:d:\project\my_sdl_framework\src\cscreencontroller.cpp
+	"CScreenController.h"
+
+1336150161 source:d:\project\my_sdl_framework\src\ccolor.cpp
+	"CColor.h"
+
+1336150178 d:\project\my_sdl_framework\src\ccolor.h
+	"lib.h"
+	"CCtrlScreen.h"
+
+1335108372 source:d:\project\my_sdl_framework\src\cframe.cpp
+	"CFrame.h"
+
+1335118258 d:\project\my_sdl_framework\src\cframe.h
+	"CRect.h"
+	"IDraw.h"
+
+1336151685 d:\project\my_sdl_framework\src\crect.h
+	"lib.h"
+	"CPos.h"
+
+1335881520 d:\project\my_sdl_framework\src\cpos.h
+	"lib.h"
+
+1335797411 d:\project\my_sdl_framework\src\idraw.h
+	"lib.h"
+	"CRect.h"
+
+1335797566 source:d:\project\my_sdl_framework\src\cpaint.cpp
+	"CPaint.h"
+
+1336151685 d:\project\my_sdl_framework\src\cpaint.h
+	"lib.h"
+	"CRect.h"
+	"IDraw.h"
+
+1336150199 source:d:\project\my_sdl_framework\src\cpaintrectangle.cpp
+	"CPaintRectangle.h"
+
+1336151685 d:\project\my_sdl_framework\src\cpaintrectangle.h
+	"lib.h"
+	"CPaint.h"
+	"CColor.h"
+
+1336031710 source:d:\project\my_sdl_framework\src\cscreencontrol.cpp
+	"CScreenControl.h"
+
+1335895328 d:\project\my_sdl_framework\src\cscreencontrol.h
+	"lib.h"
+	"CRect.h"
+
+1335189028 source:d:\project\my_sdl_framework\src\ccolorpicker.cpp
+	"CColorPicker.h"
+
+1335370436 d:\project\my_sdl_framework\src\ccolorpicker.h
+	"CColor.h"
+	"EColorPreset.h"
+
+1335381990 d:\project\my_sdl_framework\src\ecolorpreset.h
+
+1335797566 source:d:\project\my_sdl_framework\src\cpaintrectangleborder.cpp
+	"CPaintRectangleBorder.h"
+
+1336151685 d:\project\my_sdl_framework\src\cpaintrectangleborder.h
+	"lib.h"
+	"CPaintRectangle.h"
+
+1335189270 source:d:\project\my_sdl_framework\src\ccanvas.cpp
+	"CCanvas.h"
+
+1335540675 d:\project\my_sdl_framework\src\ccanvas.h
+	"lib.h"
+	"CObject.h"
+	"CRect.h"
+	"IDraw.h"
+
+1335797566 source:d:\project\my_sdl_framework\src\cpos.cpp
+	"CPos.h"
+
+1335798997 source:d:\project\my_sdl_framework\src\crect.cpp
+	"CRect.h"
+
+1335370213 source:d:\project\my_sdl_framework\src\cobject.cpp
+	"CObject.h"
+
+1335540675 d:\project\my_sdl_framework\src\cobject.h
+	"lib.h"
+
+1335896097 source:d:\project\my_sdl_framework\src\cuicomponent.cpp
+	"CUIComponent.h"
+
+1335881520 d:\project\my_sdl_framework\src\cuicomponent.h
+	"lib.h"
+	"CUIFrame.h"
+
+1335193798 source:d:\project\my_sdl_framework\src\csurface.cpp
+	"CSurface.h"
+
+1335370436 d:\project\my_sdl_framework\src\csurface.h
+	"lib.h"
+	"CRect.h"
+
+1336152791 source:d:\project\my_sdl_framework\src\cuibutton.cpp
+	"CUIButton.h"
+
+1336152791 d:\project\my_sdl_framework\src\cuibutton.h
+	"lib.h"
+	"CUICompt.h"
+	"IObserver.h"
+	"CColor.h"
+	"CPaintRectangle.h"
+	"CPaintRectangleBorder.h"
+	"CPaintUTF8.h"
+	"CUIFrame.h"
+	"CColorPreset.h"
+
+1335540675 d:\project\my_sdl_framework\src\imousebuttoneventobserver.h
+	"lib.h"
+	"IEventObserver.h"
+	"CPos.h"
+
+1335550504 d:\project\my_sdl_framework\src\ieventobserver.h
+	"lib.h"
+	"IObserver.h"
+	"CEvent.h"
+
+1335800048 d:\project\my_sdl_framework\src\iobserver.h
+	"lib.h"
+
+1335375715 source:d:\project\my_sdl_framework\src\ceventnotifier.cpp
+	"CEventNotifier.h"
+
+1335554480 d:\project\my_sdl_framework\src\ceventnotifier.h
+	"lib.h"
+	"CSubject.h"
+	"CMouseButtonEventSubject.h"
+	"CMouseMotionEventSubject.h"
+	"CKeyboardEventSubject.h"
+	"CQuitEventSubject.h"
+
+1335553837 d:\project\my_sdl_framework\src\isubject.h
+	"lib.h"
+	"IObserver.h"
+	"CEvent.h"
+
+1335377054 source:d:\project\my_sdl_framework\src\cmousemotioneventsubject.cpp
+	"CMouseMotionEventSubject.h"
+
+1335554467 d:\project\my_sdl_framework\src\cmousemotioneventsubject.h
+	"lib.h"
+	"CObject.h"
+	"CSubject.h"
+	"IMouseMotionEventObserver.h"
+
+1335540675 d:\project\my_sdl_framework\src\imousemotioneventobserver.h
+	"lib.h"
+	"IEventObserver.h"
+	"CPos.h"
+
+1335376866 source:d:\project\my_sdl_framework\src\cmousebuttoneventsubject.cpp
+	"CMouseButtonEventSubject.h"
+
+1335554460 d:\project\my_sdl_framework\src\cmousebuttoneventsubject.h
+	"lib.h"
+	"CObject.h"
+	"CSubject.h"
+	"IMouseButtonEventObserver.h"
+
+1335377403 source:d:\project\my_sdl_framework\src\ckeyboardeventsubject.cpp
+	"CKeyboardEventSubject.h"
+
+1335554471 d:\project\my_sdl_framework\src\ckeyboardeventsubject.h
+	"lib.h"
+	"CObject.h"
+	"CSubject.h"
+	"IKeyboardEventObserver.h"
+
+1335540675 d:\project\my_sdl_framework\src\ikeyboardeventobserver.h
+	"lib.h"
+	"IEventObserver.h"
+
+1335554476 d:\project\my_sdl_framework\src\cquiteventsubject.h
+	"lib.h"
+	"CObject.h"
+	"CSubject.h"
+	"IQuitEventObserver.h"
+
+1335377439 d:\project\my_sdl_framework\src\iquiteventobserver.h
+	"lib.h"
+	"IEventObserver.h"
+
+1335377531 source:d:\project\my_sdl_framework\src\cquiteventsubject.cpp
+	"CQuitEventSubject.h"
+
+1335617298 source:d:\project\my_sdl_framework\src\cevent.cpp
+	"CEvent.h"
+
+1335616643 d:\project\my_sdl_framework\src\cevent.h
+	"lib.h"
+	"CPos.h"
+
+1335797566 source:d:\project\my_sdl_framework\src\cmousebuttonevent.cpp
+	"CMouseButtonEvent.h"
+
+1335881520 d:\project\my_sdl_framework\src\cmousebuttonevent.h
+	"lib.h"
+	"CPos.h"
+
+1335797566 source:d:\project\my_sdl_framework\src\cmousemotionevent.cpp
+	"CMouseMotionEvent.h"
+
+1335881520 d:\project\my_sdl_framework\src\cmousemotionevent.h
+	"lib.h"
+	"CPos.h"
+
+1335797566 source:d:\project\my_sdl_framework\src\ckeyboardevent.cpp
+	"CKeyboardEvent.h"
+
+1335881520 d:\project\my_sdl_framework\src\ckeyboardevent.h
+	"lib.h"
+
+1335797566 source:d:\project\my_sdl_framework\src\cquitevent.cpp
+	"CQuitEvent.h"
+
+1335800507 d:\project\my_sdl_framework\src\cquitevent.h
+	"lib.h"
+
+1335540675 d:\project\my_sdl_framework\src\iuibuttoneventobserver.h
+	"lib.h"
+	"IEventObserver.h"
+
+1335386922 d:\project\my_sdl_framework\src\kcolorpreset.h
+	"CColor.h"
+
+1335386596 source:d:\project\my_sdl_framework\src\kcolorpreset.cpp
+	"KColorPreset.h"
+
+1336149475 source:d:\project\my_sdl_framework\src\ccolorpreset.cpp
+	"CColorPreset.h"
+
+1336149475 d:\project\my_sdl_framework\src\ccolorpreset.h
+	"lib.h"
+	"CColor.h"
+
+1336151685 d:\project\my_sdl_framework\src\cuiframe.h
+	"lib.h"
+	"IObserver.h"
+	"CColor.h"
+	"CColorPreset.h"
+	"CPaintRectangle.h"
+	"CCtrlSDLEvent.h"
+	"CPaintRectangleBorder.h"
+
+1336151078 source:d:\project\my_sdl_framework\src\cuiframe.cpp
+	"CUIFrame.h"
+
+1335797411 source:d:\project\my_sdl_framework\src\cimage.cpp
+	"CImage.h"
+
+1336151685 d:\project\my_sdl_framework\src\cimage.h
+	"lib.h"
+	"CRect.h"
+	"IDraw.h"
+
+1336152391 source:d:\project\my_sdl_framework\src\cimagearray.cpp
+	"lib.h"
+	"CImageArray.h"
+
+1336151685 d:\project\my_sdl_framework\src\cimagearray.h
+	"lib.h"
+	"CImage.h"
+	"EImageId.h"
+
+1336173446 d:\project\my_sdl_framework\src\compile.h
+
+1335616193 d:\project\my_sdl_framework\src\eeventtype.h
+	"lib.h"
+
+1335565834 source:d:\project\my_sdl_framework\src\ckeyboarddownevent.cpp
+	"CKeyboardDownEvent.h"
+
+1335565972 d:\project\my_sdl_framework\src\ckeyboarddownevent.h
+	"CKeyboardEvent.h"
+
+1335565895 source:d:\project\my_sdl_framework\src\ckeyboardupevent.cpp
+	"CKeyboardUpEvent.h"
+
+1335565972 d:\project\my_sdl_framework\src\ckeyboardupevent.h
+	"CKeyboardEvent.h"
+
+1335551490 source:d:\project\my_sdl_framework\src\cmousebuttonleftdownevent.cpp
+	"CMouseButtonLeftDownEvent.h"
+
+1335551522 d:\project\my_sdl_framework\src\cmousebuttonleftdownevent.h
+	"CEvent.h"
+	"CPos.h"
+
+1335551582 source:d:\project\my_sdl_framework\src\cmousebuttonrightdownevent.cpp
+	"CMouseButtonRightDownEvent.h"
+
+1335551562 d:\project\my_sdl_framework\src\cmousebuttonrightdownevent.h
+	"CEvent.h"
+	"CPos.h"
+
+1335552099 source:d:\project\my_sdl_framework\src\cmousebuttonleftupevent.cpp
+	"CMouseButtonLeftUpEvent.h"
+
+1335552071 d:\project\my_sdl_framework\src\cmousebuttonleftupevent.h
+	"CEvent.h"
+	"CPos.h"
+
+1335552450 source:d:\project\my_sdl_framework\src\ceventsubject.cpp
+	"CEventSubject.h"
+
+1335552450 d:\project\my_sdl_framework\src\ceventsubject.h
+
+1335552175 source:d:\project\my_sdl_framework\src\cmousebuttonrightupevent.cpp
+	"CMouseButtonRightUpEvent.h"
+
+1335552175 d:\project\my_sdl_framework\src\cmousebuttonrightupevent.h
+	"CEvent.h"
+	"CPos.h"
+
+1336151685 d:\project\my_sdl_framework\src\csubject.h
+	"lib.h"
+	"IObserver.h"
+
+1335614678 source:d:\project\my_sdl_framework\src\csubject.cpp
+	"CSubject.h"
+
+1335565332 source:d:\project\my_sdl_framework\src\cmouseleftbuttondownevent.cpp
+	"CMouseLeftButtonDownEvent.h"
+
+1335566117 d:\project\my_sdl_framework\src\cmouseleftbuttondownevent.h
+	"CMouseButtonEvent.h"
+	"CPos.h"
+
+1335565421 source:d:\project\my_sdl_framework\src\cmouseleftbuttonupevent.cpp
+	"CMouseLeftButtonUpEvent.h"
+
+1335566122 d:\project\my_sdl_framework\src\cmouseleftbuttonupevent.h
+	"CMouseButtonEvent.h"
+	"CPos.h"
+
+1335565421 source:d:\project\my_sdl_framework\src\cmouserightbuttondownevent.cpp
+	"CMouseRightButtonDownEvent.h"
+
+1335566125 d:\project\my_sdl_framework\src\cmouserightbuttondownevent.h
+	"CMouseButtonEvent.h"
+	"CPos.h"
+
+1335565421 source:d:\project\my_sdl_framework\src\cmouserightbuttonupevent.cpp
+	"CMouseRightButtonUpEvent.h"
+
+1335566175 d:\project\my_sdl_framework\src\cmouserightbuttonupevent.h
+	"CMouseButtonEvent.h"
+	"CPos.h"
+
+1336150533 source:d:\project\my_sdl_framework\src\csdleventsubject.cpp
+	"CSDLEventSubject.h"
+
+1336150533 d:\project\my_sdl_framework\src\csdleventsubject.h
+	"lib.h"
+	"CSubject.h"
+	"CPos.h"
+	"CEventMouseButton.h"
+	"CEventMouseMotion.h"
+	"CEventKeyboard.h"
+	"CEventQuit.h"
+
+1335557199 d:\project\my_sdl_framework\src\cuibuttonactivatedevent.h
+	"CEvent.h"
+	"CPos.h"
+
+1335616311 source:d:\project\my_sdl_framework\src\cuibuttonactivatedevent.cpp
+	"CUIButtonActivatedEvent.h"
+
+1335562670 source:d:\project\my_sdl_framework\src\csdlevent.cpp
+	"CSDLEvent.h"
+
+1335561390 d:\project\my_sdl_framework\src\csdlevent.h
+	"CEvent.h"
+
+1335614907 d:\project\my_sdl_framework\src\tsubject.h
+	"lib.h"
+	"IObserver.h"
+
+1335889534 source:d:\project\my_sdl_framework\src\cpaintimage.cpp
+	"CPaintImage.h"
+
+1336151685 d:\project\my_sdl_framework\src\cpaintimage.h
+	"lib.h"
+	"CPaint.h"
+	"CImageArray.h"
+
+1335797412 d:\project\my_sdl_framework\src\macro.h
+
+1335889544 source:d:\project\my_sdl_framework\src\cpaintimagepattern.cpp
+	"CPaintImagePattern.h"
+
+1335889544 d:\project\my_sdl_framework\src\cpaintimagepattern.h
+	"lib.h"
+	"CPaintImage.h"
+
+1335627365 source:d:\project\my_sdl_framework\src\ctile.cpp
+	"CTile.h"
+
+1335627561 d:\project\my_sdl_framework\src\ctile.h
+	"CPaint.h"
+
+1335889662 source:d:\project\my_sdl_framework\src\ctileset.cpp
+	"CTileset.h"
+
+1335889653 d:\project\my_sdl_framework\src\ctileset.h
+	"lib.h"
+	"IDraw.h"
+	"CImageArray.h"
+
+1336153032 source:d:\project\my_sdl_framework\src\cpaintutf8.cpp
+	"CPaintUTF8.h"
+
+1336153033 d:\project\my_sdl_framework\src\cpaintutf8.h
+	"lib.h"
+	"CPaint.h"
+	"CUTF8Util.h"
+	"CFont.h"
+
+1336150192 source:d:\project\my_sdl_framework\src\cfont.cpp
+	"CFont.h"
+
+1336151364 d:\project\my_sdl_framework\src\cfont.h
+	"lib.h"
+	"CRect.h"
+	"CImageArray.h"
+	"EImageId.h"
+	"CColor.h"
+
+1335877640 d:\project\my_sdl_framework\src\cutf8tool.h
+	"lib.h"
+
+1335877570 source:d:\project\my_sdl_framework\src\cutf8tool.cpp
+	"CUTF8Tool.h"
+
+1335647768 d:\project\my_sdl_framework\src\eutf8codetype.h
+	"lib.h"
+
+1336153033 d:\project\my_sdl_framework\src\cutf8util.h
+	"lib.h"
+
+1336153033 source:d:\project\my_sdl_framework\src\cutf8util.cpp
+	"CUTF8Util.h"
+
+1336152313 d:\project\my_sdl_framework\src\eimageid.h
+	"lib.h"
+
+1335896075 source:d:\project\my_sdl_framework\src\cexit.cpp
+	"CExit.h"
+
+1335892169 d:\project\my_sdl_framework\src\cexit.h
+	"lib.h"
+
+1336153152 source:d:\project\my_sdl_framework\src\cuimessageboxframe.cpp
+	"CUIMessageBoxFrame.h"
+
+1336153153 d:\project\my_sdl_framework\src\cuimessageboxframe.h
+	"CUIFrame.h"
+	"CUITitleField.h"
+	"CUITextField.h"
+	"CUIButton.h"
+
+1336152910 d:\project\my_sdl_framework\src\cuititlefield.h
+	"lib.h"
+	"CUICompt.h"
+	"IObserver.h"
+	"CColor.h"
+	"CPaintRectangle.h"
+	"CPaintRectangleBorder.h"
+	"CPaintUTF8.h"
+	"CUIFrame.h"
+	"CColorPreset.h"
+
+1336152910 source:d:\project\my_sdl_framework\src\cuititlefield.cpp
+	"CUITitleField.h"
+
+1336153033 source:d:\project\my_sdl_framework\src\cuitextfield.cpp
+	"CUITextField.h"
+
+1336152853 d:\project\my_sdl_framework\src\cuitextfield.h
+	"lib.h"
+	"CUICompt.h"
+	"IObserver.h"
+	"CColor.h"
+	"CPaintRectangle.h"
+	"CPaintRectangleBorder.h"
+	"CPaintUTF8.h"
+	"CUIFrame.h"
+	"CColorPreset.h"
+
+1336153083 source:d:\project\my_sdl_framework\src\cuibackgroundframe.cpp
+	"CUIBackgroundFrame.h"
+
+1336153083 d:\project\my_sdl_framework\src\cuibackgroundframe.h
+	"CUIFrame.h"
+	"CUITitleField.h"
+	"CUITextField.h"
+	"CUIButton.h"
+
+1336151685 d:\project\my_sdl_framework\src\cuicompt.h
+	"lib.h"
+	"CUIFrame.h"
+
+1336150496 d:\project\my_sdl_framework\src\cuicompttitlefield.h
+	"lib.h"
+	"CUICompt.h"
+	"IObserver.h"
+	"CColor.h"
+	"CPaintRectangle.h"
+	"CPaintRectangleBorder.h"
+	"CPaintUTF8.h"
+	"CUIFrame.h"
+	"CColorPreset.h"
+
+1336150442 d:\project\my_sdl_framework\src\cuicomptbutton.h
+	"lib.h"
+	"CUICompt.h"
+	"IObserver.h"
+	"CColor.h"
+	"CPaintRectangle.h"
+	"CPaintRectangleBorder.h"
+	"CPaintUTF8.h"
+	"CUIFrame.h"
+	"CColorPreset.h"
+
+1336148451 source:d:\project\my_sdl_framework\src\cuicompt.cpp
+	"CUICompt.h"
+
+1336148735 d:\project\my_sdl_framework\src\cuicompttextfield.h
+	"lib.h"
+	"CUICompt.h"
+	"IObserver.h"
+	"CColor.h"
+	"CPaintRectangle.h"
+	"CPaintRectangleBorder.h"
+	"CPaintUTF8.h"
+	"CUIFrame.h"
+	"CColorPreset.h"
+
+1336149646 d:\project\my_sdl_framework\src\cctrlscr.h
+	"lib.h"
+	"CRect.h"
+
+1336150442 source:d:\project\my_sdl_framework\src\cuicomptbutton.cpp
+	"CUIComptButton.h"
+
+1336150898 source:d:\project\my_sdl_framework\src\cuicompttextfield.cpp
+	"CUIComptTextField.h"
+
+1336150496 source:d:\project\my_sdl_framework\src\cuicompttitlefield.cpp
+	"CUIComptTitleField.h"
+
+1336149796 source:d:\project\my_sdl_framework\src\cctrlscr.cpp
+	"CCtrlScr.h"
+
+1336151267 d:\project\my_sdl_framework\src\cctrlscreen.h
+	"lib.h"
+	"CRect.h"
+
+1336150009 source:d:\project\my_sdl_framework\src\cctrlscreen.cpp
+	"CCtrlScreen.h"
+
+1336151363 d:\project\my_sdl_framework\src\ceventmousebutton.h
+	"lib.h"
+	"CPos.h"
+
+1336151364 d:\project\my_sdl_framework\src\ceventmousemotion.h
+	"lib.h"
+	"CPos.h"
+
+1336151363 d:\project\my_sdl_framework\src\ceventkeyboard.h
+	"lib.h"
+
+1336150645 d:\project\my_sdl_framework\src\ceventquit.h
+	"lib.h"
+
+1336150398 source:d:\project\my_sdl_framework\src\ceventkeyboard.cpp
+	"CEventKeyboard.h"
+
+1336150441 source:d:\project\my_sdl_framework\src\ceventmousebutton.cpp
+	"CEventMouseButton.h"
+
+1336150495 source:d:\project\my_sdl_framework\src\ceventmousemotion.cpp
+	"CEventMouseMotion.h"
+
+1336150533 source:d:\project\my_sdl_framework\src\ceventquit.cpp
+	"CEventQuit.h"
+
+1336150591 source:d:\project\my_sdl_framework\src\cctrlexit.cpp
+	"CCtrlExit.h"
+
+1336150599 d:\project\my_sdl_framework\src\cctrlexit.h
+	"lib.h"
+
+1336151079 source:d:\project\my_sdl_framework\src\cuiframebackground.cpp
+	"CUIFrameBackground.h"
+
+1336151079 d:\project\my_sdl_framework\src\cuiframebackground.h
+	"CUIFrame.h"
+	"CUIComptTitleField.h"
+	"CUIComptTextField.h"
+	"CUIComptButton.h"
+
+1336151079 source:d:\project\my_sdl_framework\src\cuiframemessagebox.cpp
+	"CUIFrameMessageBox.h"
+
+1336151685 d:\project\my_sdl_framework\src\cuiframemessagebox.h
+	"CUIFrame.h"
+	"CUIComptTitleField.h"
+	"CUIComptTextField.h"
+	"CUIComptButton.h"
+
+1336151685 d:\project\my_sdl_framework\src\cutilutf8.h
+	"lib.h"
+
+1336151105 d:\project\my_sdl_framework\src\cctrlsdlevent.h
+	"lib.h"
+	"CSubject.h"
+	"CPos.h"
+	"CEventMouseButton.h"
+	"CEventMouseMotion.h"
+	"CEventKeyboard.h"
+	"CEventQuit.h"
+
+1336152526 source:d:\project\my_sdl_framework\src\cutilutf8.cpp
+	"CUtilUTF8.h"
+
+1336151078 source:d:\project\my_sdl_framework\src\cctrlsdlevent.cpp
+	"CCtrlSDLEvent.h"
+
+1336151935 source:d:\project\my_sdl_framework\src\cuictrlframe.cpp
+	"CUICtrlFrame.h"
+
+1336152036 d:\project\my_sdl_framework\src\cuictrlframe.h
+	"lib.h"
+	"CUIFRame.h"
+
+1336153171 source:d:\project\my_sdl_framework\src\cuicreateframe.cpp
+	"CUICreateFrame.h"
+
+1336153166 d:\project\my_sdl_framework\src\cuicreateframe.h
+
+1336412519 source:d:\project\my_sdl_framework\src\common\ccolor.cpp
+	"./CColor.h"
+
+1336412709 d:\project\my_sdl_framework\src\common\ccolor.h
+	"../lib.h"
+	"../ctrl/CScreenCtrl.h"
+
+1337029465 d:\project\my_sdl_framework\src\ctrl\cscreenctrl.h
+	"../lib.h"
+	"../common/CRect.h"
+
+1336412577 d:\project\my_sdl_framework\src\common\crect.h
+	"../lib.h"
+	"./CPos.h"
+
+1336412453 d:\project\my_sdl_framework\src\common\cpos.h
+	"../lib.h"
+
+1336458084 source:d:\project\my_sdl_framework\src\common\ccolorpreset.cpp
+	"./CColorPreset.h"
+
+1336406058 d:\project\my_sdl_framework\src\common\ccolorpreset.h
+	"../lib.h"
+	"./CColor.h"
+
+1336308276 source:d:\project\my_sdl_framework\src\common\cpos.cpp
+	"./CPos.h"
+
+1336308276 source:d:\project\my_sdl_framework\src\common\crect.cpp
+	"./CRect.h"
+
+1336163910 source:d:\project\my_sdl_framework\src\ctrl\cexitctrl.cpp
+	"./CExitCtrl.h"
+
+1337029482 d:\project\my_sdl_framework\src\ctrl\cexitctrl.h
+	"../lib.h"
+
+1336412171 source:d:\project\my_sdl_framework\src\ctrl\cscreenctrl.cpp
+	"./CScreenCtrl.h"
+
+1336307732 d:\project\my_sdl_framework\src\common\iobserver.h
+	"../lib.h"
+
+1336413842 d:\project\my_sdl_framework\src\paint\cpaintrectangle.h
+	"../lib.h"
+	"../common/CColor.h"
+	"./CPaint.h"
+
+1336413841 d:\project\my_sdl_framework\src\paint\cpaint.h
+	"../lib.h"
+	"../common/CRect.h"
+	"./IDraw.h"
+
+1336307732 d:\project\my_sdl_framework\src\paint\idraw.h
+	"../lib.h"
+	"../common/CRect.h"
+
+1336413842 d:\project\my_sdl_framework\src\paint\cpaintrectangleborder.h
+	"../lib.h"
+	"./CPaintRectangle.h"
+
+1336410599 d:\project\my_sdl_framework\src\paint\cimagearray.h
+	"../lib.h"
+	"./CImage.h"
+	"./EImageId.h"
+
+1336413841 d:\project\my_sdl_framework\src\paint\cimage.h
+	"../lib.h"
+	"../common/CRect.h"
+
+1336308444 d:\project\my_sdl_framework\src\paint\eimageid.h
+	"../lib.h"
+
+1336413841 d:\project\my_sdl_framework\src\paint\cpaintimage.h
+	"../lib.h"
+	"./CPaint.h"
+	"./CImageArray.h"
+
+1336413842 d:\project\my_sdl_framework\src\paint\ctileset.h
+	"../lib.h"
+	"./IDraw.h"
+	"./CImageArray.h"
+
+1336413841 d:\project\my_sdl_framework\src\paint\cfont.h
+	"../lib.h"
+	"../common/CRect.h"
+	"../common/CColor.h"
+	"./CImageArray.h"
+	"./EImageId.h"
+
+1336413842 d:\project\my_sdl_framework\src\paint\cpaintutf8.h
+	"../lib.h"
+	"./CPaint.h"
+	"./CFont.h"
+	"../util/CUTF8Util.h"
+
+1336411013 d:\project\my_sdl_framework\src\util\cutf8util.h
+	"../lib.h"
+
+1336159622 d:\project\my_sdl_framework\src\ui\event\csdleventmanager.h
+	"../../lib.h"
+	"../../common/CSubject.h"
+	"../../common/CPos.h"
+	"./CMouseButtonEvent.h"
+	"./CMouseMotionEvent.h"
+	"./CKeyboardEvent.h"
+	"../../ctrl/CExitCtrl.h"
+
+1336409248 d:\project\my_sdl_framework\src\common\csubject.h
+	"../lib.h"
+	"./IObserver.h"
+
+1336154931 d:\project\my_sdl_framework\src\ui\event\cmousebuttonevent.h
+	"../../lib.h"
+	"../../common/CPos.h"
+
+1336154931 d:\project\my_sdl_framework\src\ui\event\cmousemotionevent.h
+	"../../lib.h"
+	"../../common/CPos.h"
+
+1336154931 d:\project\my_sdl_framework\src\ui\event\ckeyboardevent.h
+	"../../lib.h"
+
+1336154931 d:\project\my_sdl_framework\src\ui\event\cquitevent.h
+	"../../lib.h"
+
+1336414076 d:\project\my_sdl_framework\src\ui\frame\cuimessageboxframe.h
+	"CUIBaseFrame.h"
+	"../component/CUITitleField.h"
+	"../component/CUITextField.h"
+	"../component/CUIButton.h"
+	"../action/EUIActionType.h"
+
+1336395044 d:\project\my_sdl_framework\src\ui\frame\cuiframe.h
+	"../../lib.h"
+	"../../common/CColor.h"
+	"../../common/CColorPreset.h"
+	"../../common/IObserver.h"
+	"../../paint/CPaintRectangle.h"
+	"../../event/CSystemEventManager.h"
+	"../../paint/CPaintRectangleBorder.h"
+	"./IUIFrameBasicInterface.h"
+
+1336414076 d:\project\my_sdl_framework\src\ui\component\cuititlefield.h
+	"../../lib.h"
+	"../component/CUIComponent.h"
+	"../../common/IObserver.h"
+	"../../common/CColor.h"
+	"../../paint/CPaintRectangle.h"
+	"../../paint/CPaintRectangleBorder.h"
+	"../../paint/CPaintUTF8.h"
+	"../frame/CUIBaseFrame.h"
+	"../../common/CColorPreset.h"
+
+1336414076 d:\project\my_sdl_framework\src\ui\component\cuicomponent.h
+	"../../lib.h"
+	"../frame/CUIBaseFrame.h"
+
+1336414076 d:\project\my_sdl_framework\src\ui\component\cuitextfield.h
+	"../../lib.h"
+	"./CUIComponent.h"
+	"../../common/IObserver.h"
+	"../../common/CColor.h"
+	"../../paint/CPaintRectangle.h"
+	"../../paint/CPaintRectangleBorder.h"
+	"../../paint/CPaintUTF8.h"
+	"../frame/CUIBaseFrame.h"
+	"../../common/CColorPreset.h"
+
+1336414076 d:\project\my_sdl_framework\src\ui\component\cuibutton.h
+	"../../lib.h"
+	"./CUIComponent.h"
+	"../../common/IObserver.h"
+	"../../common/CColor.h"
+	"../../paint/CPaintRectangle.h"
+	"../../paint/CPaintRectangleBorder.h"
+	"../../paint/CPaintUTF8.h"
+	"../frame/CUIBaseFrame.h"
+	"../../common/CColorPreset.h"
+	"../action/EUIActionType.h"
+
+1336327639 d:\project\my_sdl_framework\src\ui\frame\cuibackgroundframe.h
+	"./CUIFrame.h"
+	"../component/CUITitleField.h"
+	"../component/CUITextField.h"
+	"../component/CUIButton.h"
+
+1336413171 source:d:\project\my_sdl_framework\src\paint\cfont.cpp
+	"./CFont.h"
+
+1336413171 source:d:\project\my_sdl_framework\src\paint\cimage.cpp
+	"./CImage.h"
+
+1336410599 source:d:\project\my_sdl_framework\src\paint\cimagearray.cpp
+	"../lib.h"
+	"./CImageArray.h"
+
+1336412709 source:d:\project\my_sdl_framework\src\paint\cpaint.cpp
+	"./CPaint.h"
+
+1336413171 source:d:\project\my_sdl_framework\src\paint\cpaintimage.cpp
+	"./CPaintImage.h"
+
+1336413209 source:d:\project\my_sdl_framework\src\paint\cpaintimagepattern.cpp
+	"./CPaintImagePattern.h"
+
+1336413842 d:\project\my_sdl_framework\src\paint\cpaintimagepattern.h
+	"../lib.h"
+	"./CPaintImage.h"
+
+1336413440 source:d:\project\my_sdl_framework\src\paint\cpaintrectangle.cpp
+	"./CPaintRectangle.h"
+
+1336413507 source:d:\project\my_sdl_framework\src\paint\cpaintrectangleborder.cpp
+	"./CPaintRectangleBorder.h"
+
+1336413015 source:d:\project\my_sdl_framework\src\paint\cpaintutf8.cpp
+	"./CPaintUTF8.h"
+
+1336413209 source:d:\project\my_sdl_framework\src\paint\ctileset.cpp
+	"./CTileset.h"
+
+1336413507 source:d:\project\my_sdl_framework\src\ui\component\cuibutton.cpp
+	"./CUIButton.h"
+
+1336412820 source:d:\project\my_sdl_framework\src\ui\component\cuicomponent.cpp
+	"./CUIComponent.h"
+
+1336413288 source:d:\project\my_sdl_framework\src\ui\component\cuitextfield.cpp
+	"./CUITextField.h"
+
+1336413328 source:d:\project\my_sdl_framework\src\ui\component\cuititlefield.cpp
+	"./CUITitleField.h"
+
+1336153944 source:d:\project\my_sdl_framework\src\ui\event\ckeyboardevent.cpp
+	"CKeyboardEvent.h"
+
+1336153976 source:d:\project\my_sdl_framework\src\ui\event\cmousebuttonevent.cpp
+	"CMouseButtonEvent.h"
+
+1336154009 source:d:\project\my_sdl_framework\src\ui\event\cmousemotionevent.cpp
+	"CMouseMotionEvent.h"
+
+1336154033 source:d:\project\my_sdl_framework\src\ui\event\cquitevent.cpp
+	"CQuitEvent.h"
+
+1336159622 source:d:\project\my_sdl_framework\src\ui\event\csdleventmanager.cpp
+	"CSDLEventManager.h"
+
+1336307731 source:d:\project\my_sdl_framework\src\ui\frame\cuibackgroundframe.cpp
+	"./CUIBackgroundFrame.h"
+
+1336153171 source:d:\project\my_sdl_framework\src\ui\frame\cuicreateframe.cpp
+	"CUICreateFrame.h"
+
+1336153166 d:\project\my_sdl_framework\src\ui\frame\cuicreateframe.h
+
+1336151935 source:d:\project\my_sdl_framework\src\ui\frame\cuictrlframe.cpp
+	"CUICtrlFrame.h"
+
+1336154632 d:\project\my_sdl_framework\src\ui\frame\cuictrlframe.h
+	"../../lib.h"
+	"./CUIFRame.h"
+
+1336394839 source:d:\project\my_sdl_framework\src\ui\frame\cuiframe.cpp
+	"./CUIFrame.h"
+
+1336413636 source:d:\project\my_sdl_framework\src\ui\frame\cuimessageboxframe.cpp
+	"./CUIMessageBoxFrame.h"
+
+1336411013 source:d:\project\my_sdl_framework\src\util\cutf8util.cpp
+	"./CUTF8Util.h"
+
+1336495440 source:d:\project\my_sdl_framework\src\ui\frame\cuiframefactory.cpp
+	"./CUIFrameFactory.h"
+
+1336397281 d:\project\my_sdl_framework\src\ui\frame\cuiframefactory.h
+	"EUIFrameType.h"
+	"CUIBaseFrame.h"
+	"CUIMessageBoxFrame.h"
+	"CUITextInputFrame.h"
+
+1336162719 source:d:\project\my_sdl_framework\src\ui\frame\cuiframemanager.cpp
+	"CUIFrameManager.h"
+
+1336162660 d:\project\my_sdl_framework\src\ui\frame\cuiframemanager.h
+	"../../lib.h"
+	"./CUIFrame.h"
+	"../event/CSDLEventManager.h"
+	"../../ctrl/CExitCtrl.h"
+
+1336405447 d:\project\my_sdl_framework\src\ui\frame\euiframetype.h
+	"../../lib.h"
+
+1336409722 source:d:\project\my_sdl_framework\src\event\ckeyboardevent.cpp
+	"./CKeyboardEvent.h"
+
+1336409722 d:\project\my_sdl_framework\src\event\ckeyboardevent.h
+	"../lib.h"
+
+1336409782 source:d:\project\my_sdl_framework\src\event\cmousebuttonevent.cpp
+	"./CMouseButtonEvent.h"
+
+1336412709 d:\project\my_sdl_framework\src\event\cmousebuttonevent.h
+	"../lib.h"
+	"../common/CPos.h"
+	"../common/IObserver.h"
+
+1336409864 source:d:\project\my_sdl_framework\src\event\cmousemotionevent.cpp
+	"./CMouseMotionEvent.h"
+
+1336409864 d:\project\my_sdl_framework\src\event\cmousemotionevent.h
+	"../lib.h"
+	"../common/CPos.h"
+
+1336355990 source:d:\project\my_sdl_framework\src\event\cquitevent.cpp
+	"./CQuitEvent.h"
+
+1336356002 d:\project\my_sdl_framework\src\event\cquitevent.h
+	"../lib.h"
+
+1336409992 source:d:\project\my_sdl_framework\src\event\csystemeventmanager.cpp
+	"./CSystemEventManager.h"
+
+1336409993 d:\project\my_sdl_framework\src\event\csystemeventmanager.h
+	"../lib.h"
+	"../common/CSubject.h"
+	"../common/CPos.h"
+	"../ctrl/CExitCtrl.h"
+	"./CMouseButtonEvent.h"
+	"./CMouseMotionEvent.h"
+	"./CKeyboardEvent.h"
+	"./CQuitEvent.h"
+	"./CVideoResizeEvent.h"
+	"../ui/frame/IUIFrame.h"
+	"../ui/frame/CUIFrameSortOption.h"
+	"../ctrl/CScreenCtrl.h"
+
+1336407525 d:\project\my_sdl_framework\src\ui\cuimanager.h
+	"../lib.h"
+	"../event/CSystemEventManager.h"
+	"../ctrl/CExitCtrl.h"
+	"../common/CColorPreset.h"
+	"./frame/CUIFrameSortOption.h"
+	"./frame/IUIFrame.h"
+
+1336408061 source:d:\project\my_sdl_framework\src\ui\cuimanager.cpp
+	"./CUIManager.h"
+
+1336165345 d:\project\my_sdl_framework\src\ui\frame\iframeaccessedclock.h
+	"../../lib.h"
+
+1336165695 d:\project\my_sdl_framework\src\ui\frame\iframeaccessclock.h
+	"../../lib.h"
+
+1336168108 d:\project\my_sdl_framework\src\ui\frame\iuiframeaccessclock.h
+	"../../lib.h"
+
+1336166394 d:\project\my_sdl_framework\src\ui\frame\iuiframeobserver.h
+	"../../common/IObserver.h"
+	"../../event/CMouseButtonEvent.h"
+
+1336168282 d:\project\my_sdl_framework\src\ui\frame\iuiframemousebuttonownerinfo.h
+	"../../lib.h"
+
+1336355671 d:\project\my_sdl_framework\src\ui\frame\iuiframeeventownerinfo.h
+	"../../lib.h"
+
+1336329927 d:\project\my_sdl_framework\src\ui\frame\cuicompareframeclock.h
+
+1336330424 d:\project\my_sdl_framework\src\ui\frame\cuicompareframeclocki.h
+
+1336413086 source:d:\project\my_sdl_framework\src\ui\component\cuieditfield.cpp
+	"./CUIEditField.h"
+
+1336414076 d:\project\my_sdl_framework\src\ui\component\cuieditfield.h
+	"../../lib.h"
+	"./CUIComponent.h"
+	"../../common/IObserver.h"
+	"../../common/CColor.h"
+	"../../paint/CPaintRectangle.h"
+	"../../paint/CPaintRectangleBorder.h"
+	"../../paint/CPaintUTF8.h"
+	"../frame/CUIBaseFrame.h"
+	"../../common/CColorPreset.h"
+	"../../util/CKeyboardToUTF8.h"
+
+1336308443 d:\project\my_sdl_framework\src\common\elangtype.h
+	"../lib.h"
+
+1336414076 d:\project\my_sdl_framework\src\util\ckeyboardtoutf8.h
+	"../lib.h"
+	"./EInputMode.h"
+	"./CUTF8Util.h"
+
+1336310844 d:\project\my_sdl_framework\src\util\einputmode.h
+	"../lib.h"
+
+1336413570 source:d:\project\my_sdl_framework\src\util\ckeyboardtoutf8.cpp
+	"CKeyboardToUTF8.h"
+
+1336413636 source:d:\project\my_sdl_framework\src\ui\frame\cuitextinputframe.cpp
+	"./CUITextInputFrame.h"
+
+1336414076 d:\project\my_sdl_framework\src\ui\frame\cuitextinputframe.h
+	"CUIBaseFrame.h"
+	"../component/CUITitleField.h"
+	"../component/CUITextField.h"
+	"../component/CUIEditField.h"
+	"../component/CUIButton.h"
+
+1336355729 d:\project\my_sdl_framework\src\ui\frame\cuiframesortoptioni.h
+
+1336414076 d:\project\my_sdl_framework\src\ui\frame\cuiframesortoption.h
+
+1336356882 d:\project\my_sdl_framework\src\ui\frame\iuiframeinterfaceforevent.h
+	"../../lib.h"
+
+1336356292 source:d:\project\my_sdl_framework\src\event\cresizeevent.cpp
+	"./CResizeEvent.h"
+
+1336356174 d:\project\my_sdl_framework\src\event\cresizeevent.h
+	"../lib.h"
+
+1336409864 d:\project\my_sdl_framework\src\event\cvideoresizeevent.h
+	"../lib.h"
+
+1336409864 source:d:\project\my_sdl_framework\src\event\cvideoresizeevent.cpp
+	"./CVideoResizeEvent.h"
+
+1336359995 d:\project\my_sdl_framework\src\ui\frame\iuiframeinterfaceforuimanager.h
+	"../../lib.h"
+
+1336360510 d:\project\my_sdl_framework\src\ui\frame\iuiframeinterface.h
+	"../../lib.h"
+
+1336395086 d:\project\my_sdl_framework\src\ui\frame\iuiframebasicinterface.h
+	"../../lib.h"
+
+1336364280 d:\project\my_sdl_framework\src\ui\action\euiactiontype.h
+	"../../lib.h"
+
+1336392726 source:d:\project\my_sdl_framework\src\ui\frame\cuiframearray.cpp
+	"CUIFrameArray.h"
+
+1336392726 d:\project\my_sdl_framework\src\ui\frame\cuiframearray.h
+
+1336410882 d:\project\my_sdl_framework\src\ui\frame\iuiframe.h
+	"../../lib.h"
+	"../../common/IObserver.h"
+	"../../event/CMouseButtonEvent.h"
+	"../../event/CVideoResizeEvent.h"
+
+1336414076 d:\project\my_sdl_framework\src\ui\frame\cuibaseframe.h
+	"../../lib.h"
+	"./IUIFrame.h"
+	"../../common/CColor.h"
+	"../../common/CColorPreset.h"
+	"../../paint/CPaintRectangle.h"
+	"../../event/CSystemEventManager.h"
+	"../../paint/CPaintRectangleBorder.h"
+	"../CUIManager.h"
+
+1336405196 d:\project\my_sdl_framework\src\ui\frame\fuiframesortoption.h
+
+1336412840 source:d:\project\my_sdl_framework\src\ui\frame\cuibaseframe.cpp
+	"./CUIBaseFrame.h"
+
+1336397041 d:\project\my_sdl_framework\src\ui\frame\euiframeid.h
+	"../../lib.h"
+
+1336406668 source:d:\project\my_sdl_framework\src\event\cuiframeupdateevent.cpp
+	"CUIFrameUpdateEvent.h"
+
+1336406684 d:\project\my_sdl_framework\src\event\cuiframeupdateevent.h
+	"../lib.h"
+
+1202761107 source:d:\project\my_sdl_framework\src\adplug\a2m.cpp
+	<cstring>
+	"a2m.h"
+
+1176058379 d:\project\my_sdl_framework\src\adplug\a2m.h
+	"protrack.h"
+
+1176058379 d:\project\my_sdl_framework\src\adplug\protrack.h
+	"player.h"
+
+1176575877 d:\project\my_sdl_framework\src\adplug\player.h
+	<string>
+	"fprovide.h"
+	"opl.h"
+	"database.h"
+
+1322485416 d:\project\my_sdl_framework\src\adplug\fprovide.h
+	<string>
+	"../binio/binio.h"
+
+1126986092 d:\project\my_sdl_framework\src\binio\binio.h
+	<string>
+
+1176058379 d:\project\my_sdl_framework\src\adplug\opl.h
+
+1322485422 d:\project\my_sdl_framework\src\adplug\database.h
+	<iostream>
+	<string>
+	"../binio/binio.h"
+
+1202761107 source:d:\project\my_sdl_framework\src\adplug\adl.cpp
+	<cstring>
+	<inttypes.h>
+	<stdarg.h>
+	<assert.h>
+	"adl.h"
+	"debug.h"
+
+1176575877 d:\project\my_sdl_framework\src\adplug\adl.h
+	<inttypes.h>
+	"player.h"
+
+1033677159 d:\project\my_sdl_framework\src\adplug\debug.h
+
+1127075972 source:d:\project\my_sdl_framework\src\adplug\adlibemu.c
+	<math.h>
+	<string.h>
+
+1322485904 source:d:\project\my_sdl_framework\src\adplug\adplug.cpp
+	<cstring>
+	<string>
+	"../binio/binfile.h"
+	"adplug.h"
+	"debug.h"
+	"hsc.h"
+	"amd.h"
+	"a2m.h"
+	"imf.h"
+	"sng.h"
+	"adtrack.h"
+	"bam.h"
+	"cmf.h"
+	"d00.h"
+	"dfm.h"
+	"hsp.h"
+	"ksm.h"
+	"mad.h"
+	"mid.h"
+	"mkj.h"
+	"cff.h"
+	"dmo.h"
+	"s3m.h"
+	"dtm.h"
+	"fmc.h"
+	"mtk.h"
+	"rad.h"
+	"raw.h"
+	"sa2.h"
+	"bmf.h"
+	"flash.h"
+	"hybrid.h"
+	"hyp.h"
+	"psi.h"
+	"rat.h"
+	"lds.h"
+	"u6m.h"
+	"rol.h"
+	"xsm.h"
+	"dro.h"
+	"dro2.h"
+	"msc.h"
+	"rix.h"
+	"adl.h"
+	"jbm.h"
+
+1047139353 d:\project\my_sdl_framework\src\binio\binfile.h
+	<stdio.h>
+	"binio.h"
+
+1045403030 d:\project\my_sdl_framework\src\adplug\adplug.h
+	<string>
+	"player.h"
+	"opl.h"
+	"fprovide.h"
+	"players.h"
+	"database.h"
+
+1045856788 d:\project\my_sdl_framework\src\adplug\players.h
+	<string>
+	<list>
+	"opl.h"
+	"player.h"
+
+1176575877 d:\project\my_sdl_framework\src\adplug\hsc.h
+	"player.h"
+
+1043339225 d:\project\my_sdl_framework\src\adplug\amd.h
+	"protrack.h"
+
+1139082242 d:\project\my_sdl_framework\src\adplug\imf.h
+	"player.h"
+
+1041699053 d:\project\my_sdl_framework\src\adplug\sng.h
+	"player.h"
+
+1043339224 d:\project\my_sdl_framework\src\adplug\adtrack.h
+	"protrack.h"
+
+1043760873 d:\project\my_sdl_framework\src\adplug\bam.h
+	"player.h"
+
+1262182379 d:\project\my_sdl_framework\src\adplug\cmf.h
+	<stdint.h>
+	"player.h"
+
+1176831387 d:\project\my_sdl_framework\src\adplug\d00.h
+	"player.h"
+
+1043760874 d:\project\my_sdl_framework\src\adplug\dfm.h
+	"protrack.h"
+
+1096476343 d:\project\my_sdl_framework\src\adplug\hsp.h
+	"hsc.h"
+
+1043760875 d:\project\my_sdl_framework\src\adplug\ksm.h
+	"player.h"
+
+1043760875 d:\project\my_sdl_framework\src\adplug\mad.h
+	"protrack.h"
+
+1213530436 d:\project\my_sdl_framework\src\adplug\mid.h
+	"player.h"
+
+1052001185 d:\project\my_sdl_framework\src\adplug\mkj.h
+	"player.h"
+
+1152138220 d:\project\my_sdl_framework\src\adplug\cff.h
+	"protrack.h"
+
+1152138220 d:\project\my_sdl_framework\src\adplug\dmo.h
+	"s3m.h"
+
+1141532040 d:\project\my_sdl_framework\src\adplug\s3m.h
+	"player.h"
+
+1152138220 d:\project\my_sdl_framework\src\adplug\dtm.h
+	"protrack.h"
+
+1043760875 d:\project\my_sdl_framework\src\adplug\fmc.h
+	"protrack.h"
+
+1152138220 d:\project\my_sdl_framework\src\adplug\mtk.h
+	"hsc.h"
+
+1043760875 d:\project\my_sdl_framework\src\adplug\rad.h
+	"protrack.h"
+
+1129204430 d:\project\my_sdl_framework\src\adplug\raw.h
+	"player.h"
+
+1043760876 d:\project\my_sdl_framework\src\adplug\sa2.h
+	"protrack.h"
+
+1043760873 d:\project\my_sdl_framework\src\adplug\bmf.h
+	"xad.h"
+
+1043760876 d:\project\my_sdl_framework\src\adplug\xad.h
+	"player.h"
+
+1043760874 d:\project\my_sdl_framework\src\adplug\flash.h
+	"xad.h"
+
+1043760875 d:\project\my_sdl_framework\src\adplug\hybrid.h
+	"xad.h"
+
+1043760875 d:\project\my_sdl_framework\src\adplug\hyp.h
+	"xad.h"
+
+1130073951 d:\project\my_sdl_framework\src\adplug\psi.h
+	"xad.h"
+
+1130065532 d:\project\my_sdl_framework\src\adplug\rat.h
+	"xad.h"
+
+1096317498 d:\project\my_sdl_framework\src\adplug\lds.h
+	"player.h"
+
+1147857232 d:\project\my_sdl_framework\src\adplug\u6m.h
+	<stack>
+	"player.h"
+
+1322493575 d:\project\my_sdl_framework\src\adplug\rol.h
+	<vector>
+	<string>
+	<strings.h>
+	"player.h"
+	"mystrcasecmp.h"
+
+1322493588 d:\project\my_sdl_framework\src\adplug\mystrcasecmp.h
+	<string>
+	<cstring>
+
+1052001273 d:\project\my_sdl_framework\src\adplug\xsm.h
+	"player.h"
+
+1262322893 d:\project\my_sdl_framework\src\adplug\dro.h
+	"player.h"
+
+1262319152 d:\project\my_sdl_framework\src\adplug\dro2.h
+	<stdint.h>
+	"player.h"
+
+1141107475 d:\project\my_sdl_framework\src\adplug\msc.h
+	"player.h"
+
+1154807393 d:\project\my_sdl_framework\src\adplug\rix.h
+	"player.h"
+
+1176847946 d:\project\my_sdl_framework\src\adplug\jbm.h
+	"player.h"
+
+1052001184 source:d:\project\my_sdl_framework\src\adplug\adtrack.cpp
+	<stdlib.h>
+	<string.h>
+	"adtrack.h"
+	"debug.h"
+
+1176058379 source:d:\project\my_sdl_framework\src\adplug\amd.cpp
+	<string.h>
+	"amd.h"
+	"debug.h"
+
+1145837895 source:d:\project\my_sdl_framework\src\adplug\analopl.cpp
+	"analopl.h"
+
+1129204430 d:\project\my_sdl_framework\src\adplug\analopl.h
+	"realopl.h"
+
+1129397596 d:\project\my_sdl_framework\src\adplug\realopl.h
+	"opl.h"
+
+1043760873 source:d:\project\my_sdl_framework\src\adplug\bam.cpp
+	<string.h>
+	"bam.h"
+
+1202761108 source:d:\project\my_sdl_framework\src\adplug\bmf.cpp
+	<cstring>
+	"bmf.h"
+	"debug.h"
+
+1213530434 source:d:\project\my_sdl_framework\src\adplug\cff.cpp
+	<cstring>
+	<stdlib.h>
+	<string.h>
+	"cff.h"
+
+1263613592 source:d:\project\my_sdl_framework\src\adplug\cmf.cpp
+	<stdint.h>
+	<cassert>
+	<math.h>
+	<string.h>
+	"debug.h"
+	"cmf.h"
+
+1213530435 source:d:\project\my_sdl_framework\src\adplug\d00.cpp
+	<string.h>
+	<stdio.h>
+	<inttypes.h>
+	"debug.h"
+	"d00.h"
+
+1322485924 source:d:\project\my_sdl_framework\src\adplug\database.cpp
+	"../binio/binio.h"
+	"../binio/binfile.h"
+	<string.h>
+	"database.h"
+
+1035493835 source:d:\project\my_sdl_framework\src\adplug\debug.c
+	<stdio.h>
+	<stdarg.h>
+
+1043760874 source:d:\project\my_sdl_framework\src\adplug\dfm.cpp
+	<stdio.h>
+	<string.h>
+	"dfm.h"
+	"debug.h"
+
+1129977453 source:d:\project\my_sdl_framework\src\adplug\diskopl.cpp
+	"diskopl.h"
+
+1129977453 d:\project\my_sdl_framework\src\adplug\diskopl.h
+	<string>
+	<stdio.h>
+	"opl.h"
+	"player.h"
+
+1322485935 source:d:\project\my_sdl_framework\src\adplug\dmo.cpp
+	<string.h>
+	"../binio/binstr.h"
+	"dmo.h"
+	"debug.h"
+
+1042309656 d:\project\my_sdl_framework\src\binio\binstr.h
+	"binio.h"
+
+1270517615 source:d:\project\my_sdl_framework\src\adplug\dro.cpp
+	<cstring>
+	<stdio.h>
+	"dro.h"
+
+1262322384 source:d:\project\my_sdl_framework\src\adplug\dro2.cpp
+	<cstring>
+	<stdio.h>
+	"dro2.h"
+
+1202761109 source:d:\project\my_sdl_framework\src\adplug\dtm.cpp
+	<cstring>
+	"dtm.h"
+
+1129496721 source:d:\project\my_sdl_framework\src\adplug\emuopl.cpp
+	"emuopl.h"
+
+1129397596 d:\project\my_sdl_framework\src\adplug\emuopl.h
+	"opl.h"
+	"fmopl.h"
+
+1067874093 d:\project\my_sdl_framework\src\adplug\fmopl.h
+	"ymdeltat.h"
+
+1043760874 source:d:\project\my_sdl_framework\src\adplug\flash.cpp
+	"flash.h"
+	"debug.h"
+
+1213530435 source:d:\project\my_sdl_framework\src\adplug\fmc.cpp
+	<cstring>
+	"fmc.h"
+
+1323773916 source:d:\project\my_sdl_framework\src\adplug\fmopl.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<math.h>
+	"fmopl.h"
+
+1322493601 source:d:\project\my_sdl_framework\src\adplug\fprovide.cpp
+	<string.h>
+	"../binio/binio.h"
+	"../binio/binfile.h"
+	"fprovide.h"
+	"mystrcasecmp.h"
+
+1094042029 source:d:\project\my_sdl_framework\src\adplug\hsc.cpp
+	<string.h>
+	"hsc.h"
+	"debug.h"
+
+1096554489 source:d:\project\my_sdl_framework\src\adplug\hsp.cpp
+	<string.h>
+	"hsp.h"
+
+1130065531 source:d:\project\my_sdl_framework\src\adplug\hybrid.cpp
+	"hybrid.h"
+	"debug.h"
+
+1043760875 source:d:\project\my_sdl_framework\src\adplug\hyp.cpp
+	"hyp.h"
+	"debug.h"
+
+1213530435 source:d:\project\my_sdl_framework\src\adplug\imf.cpp
+	<string.h>
+	"imf.h"
+	"database.h"
+
+1176847946 source:d:\project\my_sdl_framework\src\adplug\jbm.cpp
+	"jbm.h"
+
+1147857232 source:d:\project\my_sdl_framework\src\adplug\ksm.cpp
+	<string.h>
+	"ksm.h"
+	"debug.h"
+
+1096396647 source:d:\project\my_sdl_framework\src\adplug\lds.cpp
+	<string.h>
+	"lds.h"
+	"debug.h"
+
+1202761109 source:d:\project\my_sdl_framework\src\adplug\mad.cpp
+	<cstring>
+	"mad.h"
+
+1221385602 source:d:\project\my_sdl_framework\src\adplug\mid.cpp
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<string.h>
+	"mid.h"
+	"mididata.h"
+
+1017065224 d:\project\my_sdl_framework\src\adplug\mididata.h
+
+1202761110 source:d:\project\my_sdl_framework\src\adplug\mkj.cpp
+	<cstring>
+	<assert.h>
+	"mkj.h"
+	"debug.h"
+
+1202761110 source:d:\project\my_sdl_framework\src\adplug\msc.cpp
+	<cstring>
+	<stdio.h>
+	"msc.h"
+	"debug.h"
+
+1202761110 source:d:\project\my_sdl_framework\src\adplug\mtk.cpp
+	<cstring>
+	"mtk.h"
+
+1322493588 source:d:\project\my_sdl_framework\src\adplug\mystrcasecmp.cpp
+	"mystrcasecmp.h"
+
+1176058379 source:d:\project\my_sdl_framework\src\adplug\player.cpp
+	"player.h"
+	"adplug.h"
+	"silentopl.h"
+
+1129204430 d:\project\my_sdl_framework\src\adplug\silentopl.h
+	"opl.h"
+
+1322493629 source:d:\project\my_sdl_framework\src\adplug\players.cpp
+	<stdlib.h>
+	<string.h>
+	"players.h"
+	"mystrcasecmp.h"
+
+1213530436 source:d:\project\my_sdl_framework\src\adplug\protrack.cpp
+	<cstring>
+	"protrack.h"
+	"debug.h"
+
+1130073951 source:d:\project\my_sdl_framework\src\adplug\psi.cpp
+	"psi.h"
+	"debug.h"
+
+1202761111 source:d:\project\my_sdl_framework\src\adplug\rad.cpp
+	<cstring>
+	"rad.h"
+
+1202761111 source:d:\project\my_sdl_framework\src\adplug\rat.cpp
+	<cstring>
+	"rat.h"
+	"debug.h"
+
+1202761111 source:d:\project\my_sdl_framework\src\adplug\raw.cpp
+	<cstring>
+	"raw.h"
+
+1176132147 source:d:\project\my_sdl_framework\src\adplug\realopl.cpp
+	<conio.h>
+	<conio.h>
+	<pc.h>
+	"realopl.h"
+
+1322493647 source:d:\project\my_sdl_framework\src\adplug\rix.cpp
+	<cstring>
+	"rix.h"
+	"debug.h"
+	"mystrcasecmp.h"
+
+1322493663 source:d:\project\my_sdl_framework\src\adplug\rol.cpp
+	<cstring>
+	<algorithm>
+	"rol.h"
+	"debug.h"
+	"mystrcasecmp.h"
+
+1213530436 source:d:\project\my_sdl_framework\src\adplug\s3m.cpp
+	<cstring>
+	"s3m.h"
+
+1213530436 source:d:\project\my_sdl_framework\src\adplug\sa2.cpp
+	<cstring>
+	<stdio.h>
+	<string.h>
+	"sa2.h"
+	"debug.h"
+
+1202761112 source:d:\project\my_sdl_framework\src\adplug\sng.cpp
+	<cstring>
+	"sng.h"
+
+1262334373 source:d:\project\my_sdl_framework\src\adplug\surroundopl.cpp
+	<math.h>
+	"surroundopl.h"
+	"debug.h"
+
+1262334386 d:\project\my_sdl_framework\src\adplug\surroundopl.h
+	<stdint.h>
+	"opl.h"
+
+1097835470 source:d:\project\my_sdl_framework\src\adplug\temuopl.cpp
+	"temuopl.h"
+
+1104699838 d:\project\my_sdl_framework\src\adplug\temuopl.h
+	"opl.h"
+	"fmopl.h"
+
+1152138220 source:d:\project\my_sdl_framework\src\adplug\u6m.cpp
+	"u6m.h"
+
+1045500170 source:d:\project\my_sdl_framework\src\adplug\xad.cpp
+	"xad.h"
+	"debug.h"
+
+1052001272 source:d:\project\my_sdl_framework\src\adplug\xsm.cpp
+	<string.h>
+	"xsm.h"
+
+1092858066 source:d:\project\my_sdl_framework\src\binio\binfile.cpp
+	<stdio.h>
+	<errno.h>
+	"binfile.h"
+
+1092858080 source:d:\project\my_sdl_framework\src\binio\binio.cpp
+	<string.h>
+	"binio.h"
+	<math.h>
+
+1043339128 source:d:\project\my_sdl_framework\src\binio\binstr.cpp
+	"binstr.h"
+
+1322493708 source:d:\project\my_sdl_framework\src\binio\binwrap.cpp
+	"binwrap.h"
+
+1047139354 d:\project\my_sdl_framework\src\binio\binwrap.h
+	"binio.h"
+	<iostream>
+	<iostream.h>
+
+1337035867 source:d:\project\my_sdl_framework\src\ctrl\csoundctrl.cpp
+	"CSoundCtrl.h"
+
+1337036168 d:\project\my_sdl_framework\src\ctrl\csoundctrl.h
+	"../lib.h"
+	"../adplug/adplug.h"
+	"../adplug/emuopl.h"
+	"../adplug/temuopl.h"
+
+1337033713 source:d:\project\my_sdl_framework\src\util\crand.cpp
+	"CRand.h"
+
+1337034191 d:\project\my_sdl_framework\src\util\crand.h
+	"../lib.h"
+

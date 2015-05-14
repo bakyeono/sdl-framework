@@ -1,0 +1,15 @@
+﻿music0              ./adlib/lore/music2.dro
+music1              ./adlib/lore/music3.dro
+music2              ./adlib/lore/music4.dro
+music3              ./adlib/lore/music5.dro
+music4              ./adlib/lore/lore.dro
+music5              ./adlib/lore/orctown.dro
+music6              ./adlib/lore/troltown.dro
+music7              ./adlib/lore/dractown.dro
+music8              ./adlib/lore/ground2.dro
+music9              ./adlib/lore/ground5.dro
+music10             ./adlib/ultima6/BOOTUP.M
+music11             ./adlib/ultima6/CREATE.M
+music12             ./adlib/ultima6/ENGAGE.M
+music13             ./adlib/ultima6/FOREST.M
+music14             ./adlib/ultima6/STONES.M

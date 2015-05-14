@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="my_sdl_framework" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\my_sdl_framework" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\my_sdl_framework" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-O2" />
+					<Add option="-O1" />
+					<Add option="-O" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wshadow" />
+			<Add option="-Winit-self" />
+			<Add option="-Wredundant-decls" />
+			<Add option="-Wcast-align" />
+			<Add option="-Wundef" />
+			<Add option="-Wfloat-equal" />
+			<Add option="-Winline" />
+			<Add option="-Wunreachable-code" />
+			<Add option="-Wmissing-declarations" />
+			<Add option="-Wswitch-enum" />
+			<Add option="-Wswitch-default" />
+			<Add option="-std=c++0x" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDLmain -lSDL -lSDL_image" />
+		</Linker>
+		<Unit filename="src\adplug\a2m.cpp" />
+		<Unit filename="src\adplug\a2m.h" />
+		<Unit filename="src\adplug\adl.cpp" />
+		<Unit filename="src\adplug\adl.h" />
+		<Unit filename="src\adplug\adlibemu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\adplug\adlibemu.h" />
+		<Unit filename="src\adplug\adplug.cpp" />
+		<Unit filename="src\adplug\adplug.h" />
+		<Unit filename="src\adplug\adtrack.cpp" />
+		<Unit filename="src\adplug\adtrack.h" />
+		<Unit filename="src\adplug\amd.cpp" />
+		<Unit filename="src\adplug\amd.h" />
+		<Unit filename="src\adplug\analopl.cpp" />
+		<Unit filename="src\adplug\analopl.h" />
+		<Unit filename="src\adplug\bam.cpp" />
+		<Unit filename="src\adplug\bam.h" />
+		<Unit filename="src\adplug\bmf.cpp" />
+		<Unit filename="src\adplug\bmf.h" />
+		<Unit filename="src\adplug\cff.cpp" />
+		<Unit filename="src\adplug\cff.h" />
+		<Unit filename="src\adplug\cmf.cpp" />
+		<Unit filename="src\adplug\cmf.h" />
+		<Unit filename="src\adplug\d00.cpp" />
+		<Unit filename="src\adplug\d00.h" />
+		<Unit filename="src\adplug\database.cpp" />
+		<Unit filename="src\adplug\database.h" />
+		<Unit filename="src\adplug\debug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\adplug\debug.h" />
+		<Unit filename="src\adplug\dfm.cpp" />
+		<Unit filename="src\adplug\dfm.h" />
+		<Unit filename="src\adplug\diskopl.cpp" />
+		<Unit filename="src\adplug\diskopl.h" />
+		<Unit filename="src\adplug\dmo.cpp" />
+		<Unit filename="src\adplug\dmo.h" />
+		<Unit filename="src\adplug\dro.cpp" />
+		<Unit filename="src\adplug\dro.h" />
+		<Unit filename="src\adplug\dro2.cpp" />
+		<Unit filename="src\adplug\dro2.h" />
+		<Unit filename="src\adplug\dtm.cpp" />
+		<Unit filename="src\adplug\dtm.h" />
+		<Unit filename="src\adplug\emuopl.cpp" />
+		<Unit filename="src\adplug\emuopl.h" />
+		<Unit filename="src\adplug\flash.cpp" />
+		<Unit filename="src\adplug\flash.h" />
+		<Unit filename="src\adplug\fmc.cpp" />
+		<Unit filename="src\adplug\fmc.h" />
+		<Unit filename="src\adplug\fmopl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\adplug\fmopl.h" />
+		<Unit filename="src\adplug\fprovide.cpp" />
+		<Unit filename="src\adplug\fprovide.h" />
+		<Unit filename="src\adplug\hsc.cpp" />
+		<Unit filename="src\adplug\hsc.h" />
+		<Unit filename="src\adplug\hsp.cpp" />
+		<Unit filename="src\adplug\hsp.h" />
+		<Unit filename="src\adplug\hybrid.cpp" />
+		<Unit filename="src\adplug\hybrid.h" />
+		<Unit filename="src\adplug\hyp.cpp" />
+		<Unit filename="src\adplug\hyp.h" />
+		<Unit filename="src\adplug\imf.cpp" />
+		<Unit filename="src\adplug\imf.h" />
+		<Unit filename="src\adplug\jbm.cpp" />
+		<Unit filename="src\adplug\jbm.h" />
+		<Unit filename="src\adplug\kemuopl.h" />
+		<Unit filename="src\adplug\ksm.cpp" />
+		<Unit filename="src\adplug\ksm.h" />
+		<Unit filename="src\adplug\lds.cpp" />
+		<Unit filename="src\adplug\lds.h" />
+		<Unit filename="src\adplug\mad.cpp" />
+		<Unit filename="src\adplug\mad.h" />
+		<Unit filename="src\adplug\mid.cpp" />
+		<Unit filename="src\adplug\mid.h" />
+		<Unit filename="src\adplug\mididata.h" />
+		<Unit filename="src\adplug\mkj.cpp" />
+		<Unit filename="src\adplug\mkj.h" />
+		<Unit filename="src\adplug\msc.cpp" />
+		<Unit filename="src\adplug\msc.h" />
+		<Unit filename="src\adplug\mtk.cpp" />
+		<Unit filename="src\adplug\mtk.h" />
+		<Unit filename="src\adplug\mystrcasecmp.cpp" />
+		<Unit filename="src\adplug\mystrcasecmp.h" />
+		<Unit filename="src\adplug\opl.h" />
+		<Unit filename="src\adplug\player.cpp" />
+		<Unit filename="src\adplug\player.h" />
+		<Unit filename="src\adplug\players.cpp" />
+		<Unit filename="src\adplug\players.h" />
+		<Unit filename="src\adplug\protrack.cpp" />
+		<Unit filename="src\adplug\protrack.h" />
+		<Unit filename="src\adplug\psi.cpp" />
+		<Unit filename="src\adplug\psi.h" />
+		<Unit filename="src\adplug\rad.cpp" />
+		<Unit filename="src\adplug\rad.h" />
+		<Unit filename="src\adplug\rat.cpp" />
+		<Unit filename="src\adplug\rat.h" />
+		<Unit filename="src\adplug\raw.cpp" />
+		<Unit filename="src\adplug\raw.h" />
+		<Unit filename="src\adplug\realopl.cpp" />
+		<Unit filename="src\adplug\realopl.h" />
+		<Unit filename="src\adplug\rix.cpp" />
+		<Unit filename="src\adplug\rix.h" />
+		<Unit filename="src\adplug\rol.cpp" />
+		<Unit filename="src\adplug\rol.h" />
+		<Unit filename="src\adplug\s3m.cpp" />
+		<Unit filename="src\adplug\s3m.h" />
+		<Unit filename="src\adplug\sa2.cpp" />
+		<Unit filename="src\adplug\sa2.h" />
+		<Unit filename="src\adplug\silentopl.h" />
+		<Unit filename="src\adplug\sng.cpp" />
+		<Unit filename="src\adplug\sng.h" />
+		<Unit filename="src\adplug\surroundopl.cpp" />
+		<Unit filename="src\adplug\surroundopl.h" />
+		<Unit filename="src\adplug\temuopl.cpp" />
+		<Unit filename="src\adplug\temuopl.h" />
+		<Unit filename="src\adplug\u6m.cpp" />
+		<Unit filename="src\adplug\u6m.h" />
+		<Unit filename="src\adplug\xad.cpp" />
+		<Unit filename="src\adplug\xad.h" />
+		<Unit filename="src\adplug\xsm.cpp" />
+		<Unit filename="src\adplug\xsm.h" />
+		<Unit filename="src\binio\binfile.cpp" />
+		<Unit filename="src\binio\binfile.h" />
+		<Unit filename="src\binio\binio.cpp" />
+		<Unit filename="src\binio\binio.h" />
+		<Unit filename="src\binio\binstr.cpp" />
+		<Unit filename="src\binio\binstr.h" />
+		<Unit filename="src\binio\binwrap.cpp" />
+		<Unit filename="src\binio\binwrap.h" />
+		<Unit filename="src\common\CColor.cpp" />
+		<Unit filename="src\common\CColor.h" />
+		<Unit filename="src\common\CColorPreset.cpp" />
+		<Unit filename="src\common\CColorPreset.h" />
+		<Unit filename="src\common\CPos.h" />
+		<Unit filename="src\common\CRect.h" />
+		<Unit filename="src\common\CSubject.h" />
+		<Unit filename="src\common\IObserver.h" />
+		<Unit filename="src\compile.h" />
+		<Unit filename="src\ctrl\CExitCtrl.cpp" />
+		<Unit filename="src\ctrl\CExitCtrl.h" />
+		<Unit filename="src\ctrl\CScreenCtrl.cpp" />
+		<Unit filename="src\ctrl\CScreenCtrl.h" />
+		<Unit filename="src\ctrl\CSoundCtrl.cpp" />
+		<Unit filename="src\ctrl\CSoundCtrl.h" />
+		<Unit filename="src\event\CKeyboardEvent.cpp" />
+		<Unit filename="src\event\CKeyboardEvent.h" />
+		<Unit filename="src\event\CMouseButtonEvent.cpp" />
+		<Unit filename="src\event\CMouseButtonEvent.h" />
+		<Unit filename="src\event\CMouseMotionEvent.cpp" />
+		<Unit filename="src\event\CMouseMotionEvent.h" />
+		<Unit filename="src\event\CQuitEvent.cpp" />
+		<Unit filename="src\event\CQuitEvent.h" />
+		<Unit filename="src\event\CSystemEventManager.cpp" />
+		<Unit filename="src\event\CSystemEventManager.h" />
+		<Unit filename="src\event\CVideoResizeEvent.cpp" />
+		<Unit filename="src\event\CVideoResizeEvent.h" />
+		<Unit filename="src\lib.h" />
+		<Unit filename="src\macro.h" />
+		<Unit filename="src\main.cpp" />
+		<Unit filename="src\paint\CFont.cpp" />
+		<Unit filename="src\paint\CFont.h" />
+		<Unit filename="src\paint\CImage.cpp" />
+		<Unit filename="src\paint\CImage.h" />
+		<Unit filename="src\paint\CImageArray.cpp" />
+		<Unit filename="src\paint\CImageArray.h" />
+		<Unit filename="src\paint\CPaint.cpp" />
+		<Unit filename="src\paint\CPaint.h" />
+		<Unit filename="src\paint\CPaintImage.cpp" />
+		<Unit filename="src\paint\CPaintImage.h" />
+		<Unit filename="src\paint\CPaintImagePattern.cpp" />
+		<Unit filename="src\paint\CPaintImagePattern.h" />
+		<Unit filename="src\paint\CPaintRectangle.cpp" />
+		<Unit filename="src\paint\CPaintRectangle.h" />
+		<Unit filename="src\paint\CPaintRectangleBorder.cpp" />
+		<Unit filename="src\paint\CPaintRectangleBorder.h" />
+		<Unit filename="src\paint\CPaintUTF8.cpp" />
+		<Unit filename="src\paint\CPaintUTF8.h" />
+		<Unit filename="src\paint\CTileset.cpp" />
+		<Unit filename="src\paint\CTileset.h" />
+		<Unit filename="src\paint\EImageId.h" />
+		<Unit filename="src\paint\IDraw.h" />
+		<Unit filename="src\ui\CUIManager.cpp" />
+		<Unit filename="src\ui\CUIManager.h" />
+		<Unit filename="src\ui\action\EUIActionType.h" />
+		<Unit filename="src\ui\component\CUIButton.cpp" />
+		<Unit filename="src\ui\component\CUIButton.h" />
+		<Unit filename="src\ui\component\CUIComponent.cpp" />
+		<Unit filename="src\ui\component\CUIComponent.h" />
+		<Unit filename="src\ui\component\CUIEditField.cpp" />
+		<Unit filename="src\ui\component\CUIEditField.h" />
+		<Unit filename="src\ui\component\CUITextField.cpp" />
+		<Unit filename="src\ui\component\CUITextField.h" />
+		<Unit filename="src\ui\component\CUITitleField.cpp" />
+		<Unit filename="src\ui\component\CUITitleField.h" />
+		<Unit filename="src\ui\frame\CUIBaseFrame.cpp" />
+		<Unit filename="src\ui\frame\CUIBaseFrame.h" />
+		<Unit filename="src\ui\frame\CUIFrameFactory.cpp" />
+		<Unit filename="src\ui\frame\CUIFrameFactory.h" />
+		<Unit filename="src\ui\frame\CUIFrameSortOption.h" />
+		<Unit filename="src\ui\frame\CUIMessageBoxFrame.cpp" />
+		<Unit filename="src\ui\frame\CUIMessageBoxFrame.h" />
+		<Unit filename="src\ui\frame\CUITextInputFrame.cpp" />
+		<Unit filename="src\ui\frame\CUITextInputFrame.h" />
+		<Unit filename="src\ui\frame\EUIFrameType.h" />
+		<Unit filename="src\ui\frame\IUIFrame.h" />
+		<Unit filename="src\util\CKeyboardToUTF8.cpp" />
+		<Unit filename="src\util\CKeyboardToUTF8.h" />
+		<Unit filename="src\util\CRand.cpp" />
+		<Unit filename="src\util\CRand.h" />
+		<Unit filename="src\util\CUTF8Util.cpp" />
+		<Unit filename="src\util\CUTF8Util.h" />
+		<Unit filename="src\util\EInputMode.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
